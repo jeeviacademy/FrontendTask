@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #FBF3D5;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    background-color: #FEFDED;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding:  20px;
+    box-shadow: 2px 4px 8px rgba(1, 1, 1, 0.1);
+}
+
+.container .title{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .title span{
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -4px ;
+}
+
+.form_control input, select, textarea {
+    border: 1px solid #efbd9ba5;
+    border-radius: 3px;
+    padding: 0 5px;
+    height: 25px;
+}
+
+.form_control .cv{
+    border: none;
+}
+
+.form_control span{
+    color: red;
+    font-size: 15px;
+}
+
+.form_control input, select, textarea, button:focus{
+    outline-color: rgba(255, 0, 0, 0.619)
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+}
+
+.btn button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f85959;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn button:hover{
+    
+    background-color: #e81616;
+}
+
+.textarea{
+    grid-column: 1/span 2;
+    
+}
+
+.textarea textarea{
+    width: 100%;
+    height: 50px;
+}
+
+@media (max-width: 460px){
+
+    body{
+        height: 110vh;
+    }
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .container .title{
+        font-size: 25px;
+    }
+
+    .container .title span{
+        font-size: 13px;
+    }
+
+    .form_control input{
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .textarea{
+        grid-column: 1/span 1;
+        
+    }
+    .textarea textarea{
+        padding-top: 3px;
+    }
+
+    .btn button{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

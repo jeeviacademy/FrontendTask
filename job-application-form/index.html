@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="title">Job Appliaction<span>(web)</span></h1>
+            <div class="form_container">
+                <div class="form_control">
+                    <label for="first_name">First Name<span>*</span>  </label>
+                    <input type="text" id="first_name" name="first_name" placeholder="enter your first name." required>
+                </div>
+                <div class="form_control">
+                    <label for="last_name">Last Name<span>*</span>  </label>
+                    <input type="text" id="last_name" name="last_name" placeholder="enter your last name." required>
+                </div>
+                <div class="form_control">
+                    <label for="email">Email<span>*</span>  </label>
+                    <input type="email" id="email" name="email" placeholder="xyz@emai.com" required>
+                </div>
+                <div class="form_control">
+                    <label for="job">Job<span>*</span></label>
+                    <select name="job" id="job" required>
+                        <option value="" selected>-- Select a job --</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="full_stack">Full Stack Developer</option>
+                        <option value="ux_ui">UX & UI Designer</option>
+                    </select>
+                </div>
+                <div class="form_control textarea">
+                    <label for="address">Address<span>*</span></label>
+                    <textarea name="address" id="address" cols="50" rows="4" placeholder="Enter your pin-point address..."></textarea>
+                </div>
+                <div class="form_control">
+                    <label for="city">City<span>*</span></label>
+                    <input type="text" id="city" name="city" placeholder="city name." required>
+                </div>
+                
+                <div class="form_control">
+                    <label for="pincode">Pincode<span>*</span></label>
+                    <input type="number" min="0" id="pincode" name="pincode" placeholder="enter your pincode." required>
+                </div>
+
+                <div class="form_control">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" required>     
+                </div>
+
+                <div class="form_control">
+                    <label for="upload">Upload your CV<span>*</span></label>
+                    <input class="cv" type="file" name="upload" id="upload" accept=".pdf" required>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button>Apply Now</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
