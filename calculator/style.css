@@ -1,0 +1,288 @@
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+body{
+    background: linear-gradient(to left, lime, cyan);
+    background-size: 100%;
+}
+.display{
+    width: 320px;
+    height: 80px;
+    background-color: rgb(36, 38, 38);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    left: 310px;
+    top: 8vh;
+}
+.displaying-text{
+    font-size: 60px;
+    font-family: monospace;
+    color: white;
+    position: relative;
+    left: 585px;
+    bottom: 23px;
+}
+.btn-container{
+    width: 320px;
+    height: 408px;
+    background-color: black;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    position: relative;
+    left: 310px;
+    top: -20px;
+}
+.delete{
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    color: white;
+    top: 15px;
+    left: 12px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.clear{
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 15px;
+    left: 9px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.percentage{
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 15px;
+    left: 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.multiplier{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 21px;
+    right: -167px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.divide{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    position: relative;
+    top: 15px;
+    right: -20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.plus{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    top: 173px;
+    left: 93px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.minus{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 97px;
+    left: 19px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.dot{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 180px;
+    right: -166px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.equals{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    color: white;
+    top: 180px;
+    left: 167px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.one{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    top: 33px;
+    left: -213px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.two{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -37px;
+    left: 88px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.three{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    top: -37px;
+    left: 91px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.four{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -43px;
+    left: 9px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.five{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    color: white;
+    top: -43px;
+    left: 13px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.six{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -43px;
+    left: 16px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.seven{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    top: -49px;
+    left: -140px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.eight{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    color: white;
+    top: -49px;
+    left: -136px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nine{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 21px;
+    color: white;
+    right: -164px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.zero{
+    width: 152px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 40px;
+    left: -140px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
